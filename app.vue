@@ -90,8 +90,8 @@ export default {
           rel: "stylesheet",
         },
         {
-          href: "/favicon2.png",
-          type: "image/png",
+          href: "/favicon.ico",
+          type: "image/x-icon",
           rel: "icon",
         },
       ],
