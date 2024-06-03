@@ -19,10 +19,10 @@ A minimalist photo memory archive website with interactive image animations for 
     ```bash
     # npm
     npm install
-    
+
     # pnpm
     pnpm install
-    
+
     # yarn
     yarn install
     ```
@@ -32,10 +32,10 @@ A minimalist photo memory archive website with interactive image animations for 
     ```bash
     # npm
     npm run dev
-    
+
     # pnpm
     pnpm run dev
-    
+
     # yarn
     yarn dev
     ```
@@ -47,10 +47,10 @@ A minimalist photo memory archive website with interactive image animations for 
     ```bash
     # npm
     npm run build
-    
+
     # pnpm
     pnpm run build
-    
+
     # yarn
     yarn build
     ```
@@ -60,10 +60,10 @@ A minimalist photo memory archive website with interactive image animations for 
     ```bash
     # npm
     npm run preview
-    
+
     # pnpm
     pnpm run preview
-    
+
     # yarn
     yarn preview
     ```
