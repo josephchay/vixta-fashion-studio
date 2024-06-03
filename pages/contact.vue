@@ -51,7 +51,7 @@
         <p class="creators__credit">
           Design by
           <site-link
-            to="https://x.com/tolzyhub"
+            to="https://x.com/josephchay"
             text=" Joseph"
             size="sm"
             class="creator__twitter"
