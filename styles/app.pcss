@@ -1,0 +1,63 @@
+:global(html),
+:global(body),
+:global(#__nuxt) {
+  background: var(--vixta-light-brown);
+}
+
+:deep(.fouc-fix .animated-block) {
+  visibility: hidden;
+}
+
+.app-wrapper {
+  /* height: 200vh; */
+  background: var(--vixta-light-brown);
+  z-index: 0;
+  position: relative;
+}
+
+:deep(.hidden) {
+  display: none;
+}
+
+.preloader-leave-active {
+  transition: opacity 1.5s;
+
+  :deep(.site-preloader__image-wrapper .image-wrapper__image) {
+    transition: transform 1.5s;
+  }
+
+  :deep(.site-preloader__counter) {
+    transition: opacity 0.5s;
+  }
+}
+
+.preloader-leave-from {
+  opacity: 1;
+
+  :deep(.site-preloader__image-wrapper .image-wrapper__image) {
+    transform: scale(1);
+  }
+
+  :deep(.site-preloader__counter) {
+    opacity: 1;
+  }
+}
+
+.preloader-leave-to {
+  opacity: 0;
+
+  :deep(.site-preloader__image-wrapper .image-wrapper__image) {
+    transform: scale(2);
+  }
+
+  :deep(.site-preloader__counter) {
+    opacity: 0;
+  }
+}
+
+@media screen and (width >= 724px) {
+  .page-transition__content {
+    font-size: 96px;
+    line-height: 1;
+  }
+}
