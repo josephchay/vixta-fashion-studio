@@ -101,6 +101,7 @@
 </template>
 
 <script>
+
 import { gsap } from "gsap";
 import { CustomEase } from "gsap/all";
 import { SplitText } from "~/assets/gsap-premium/SplitText";
@@ -143,7 +144,11 @@ export default {
               path: "/lookbook",
               prefetch: true,
             },
-            { text: "Contact", path: "/contact", prefetch: true },
+            {
+              text: "Contact",
+              path: "/contact",
+              prefetch: true
+            },
           ],
         },
         {
@@ -316,7 +321,7 @@ export default {
   justify-content: space-between;
   width: 100%;
   grid-area: logo;
-  font-size: 28vw;
+  font-size: 34vw;
   line-height: 0.66;
   padding-top: 50px;
   letter-spacing: -1px;
@@ -338,7 +343,7 @@ export default {
 
 @media screen and (width >= 500px) {
   .logo__word {
-    font-size: 29.5vw;
+    font-size: 35vw;
   }
 }
 
@@ -369,7 +374,6 @@ export default {
     display: none;
   }
   .site-footer__logo {
-    margin-top: 0;
     position: absolute;
     margin: 0;
     order: 1;
@@ -380,7 +384,7 @@ export default {
       display: block;
     }
     .logo__word {
-      font-size: 29.7vw;
+      font-size: 37vw;
     }
   }
 }
@@ -396,7 +400,7 @@ export default {
     }
 
     .logo__word {
-      font-size: 30vw;
+      font-size: 38vw;
     }
   }
 }
