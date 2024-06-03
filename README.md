@@ -6,9 +6,16 @@
 
 A minimalist photo memory archive website with interactive image animations for the fictional fashion brand Vixta.
 
+## Tech Stack
+
+![NuxtJS](https://img.shields.io/badge/NuxtJS-00C58E?style=for-the-badge&logo=nuxt.js&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-0ae448?style=for-the-badge&logo=GSAP&logoColor=white)
+
 ## Demo
 
 ![logo](https://github.com/josephchay/vixta-fashion-studio/assets/136827046/a5bb021c-1ae0-4d90-9098-dfda1e6cee0d)
+
+![image](https://github.com/josephchay/vixta-fashion-studio/assets/136827046/4f6f873b-a128-421d-9ab3-6f650c2dff53)
 
 [![Demo](https://img.shields.io/website?url=https://vision-studio-chi.vercel.app&style=for-the-badge)](https://vixta.netlify.app)
 
