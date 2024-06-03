@@ -95,7 +95,7 @@ export default {
     const studioAboutUs = ref(null);
 
     useHead({
-      title: "Vixta Studio",
+      title: "Vixta • Studio",
     });
     function callback1() {
       StudioAnimations.init(studioAboutUs.value, !mobile.value);

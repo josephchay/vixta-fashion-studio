@@ -121,7 +121,7 @@ export const LookbookAnimations = new animations();
 export default {
   inject: ["getTransitioned"],
   setup() {
-    useHead({ title: "Vixta Lookbook" });
+    useHead({ title: "Vixta • Lookbook" });
 
     function mediaQueryCallback(mobile) {
       mobile

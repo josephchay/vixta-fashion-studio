@@ -45,6 +45,10 @@ const easterEggAnimations = new animations();
 
 export default {
   setup() {
+    useHead({
+      title: "Vixta • Archive",
+    });
+
     // State
     const images = assetsToLoad["/archive"].desktop;
     const scrollLocked = ref(false);

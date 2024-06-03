@@ -1,5 +1,5 @@
 {
-  "name": "vixta-fashion",
+  "name": "vixta-fashion-studio",
   "private": true,
   "scripts": {
     "build": "nuxt build",

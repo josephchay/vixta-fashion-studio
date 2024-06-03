@@ -96,7 +96,7 @@ export default {
   name: "Contact Page",
   setup() {
     useHead({
-      title: "Vixta Contact",
+      title: "Vixta • Contact",
     });
 
     const contactPage = ref(null);
